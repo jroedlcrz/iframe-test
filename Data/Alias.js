@@ -1,8 +1,16 @@
 ﻿var xmlAliasData = "";
 xmlAliasData += '<?xml version=\"1.0\" encoding=\"utf-8\"?>';
 xmlAliasData += '<CatapultAliasFile>';
+xmlAliasData += '    <Map Name=\"NEW\" Link=\"Terminals-Devices-Software/Test2.htm\" ResolvedId=\"-2147483648\" />';
 xmlAliasData += '    <Map Name=\"NEW1\" Link=\"Test Topic.htm\" ResolvedId=\"-2147483648\" />';
+xmlAliasData += '    <Map Name=\"NEW2\" Link=\"Terminals-Devices-Software/Topic 3.htm\" ResolvedId=\"-2147483648\" />';
+xmlAliasData += '    <Map Name=\"SARKYOL_AND_UL_TEST\" Link=\"Ol and Ul test.htm\" ResolvedId=\"1000\" />';
 xmlAliasData += '    <Map Name=\"SARKYTEST_TOPIC\" Link=\"Test Topic.htm\" ResolvedId=\"1001\" />';
+xmlAliasData += '    <Map Name=\"SARKYTEST\" Link=\"Test.htm\" ResolvedId=\"1002\" />';
+xmlAliasData += '    <Map Name=\"SARKYTEST2\" Link=\"Terminals-Devices-Software/Test2.htm\" ResolvedId=\"1003\" />';
+xmlAliasData += '    <Map Name=\"SARKYTOPIC_3\" Link=\"Terminals-Devices-Software/Topic 3.htm\" ResolvedId=\"1004\" />';
+xmlAliasData += '    <Map Name=\"SARKYPRINT_RECEIPT\" Link=\"Terminals-Devices-Software/PAX/PAXSTORE/A_Series/Tango_CA/Print_Receipt.htm\" ResolvedId=\"1005\" />';
 xmlAliasData += '    <Map Name=\"SARKYNEW_PHRASE\" Link=\"Test Topic.htm\" ResolvedId=\"1006\" />';
+xmlAliasData += '    <Map Name=\"SARKYTEST1\" Link=\"../MicroContent/Resources/NewMicroContent/test.htm\" ResolvedId=\"1007\" />';
 xmlAliasData += '</CatapultAliasFile>';
 MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Alias', xmlAliasData);

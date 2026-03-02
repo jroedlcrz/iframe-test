@@ -430,15 +430,6 @@
 	opacity: 0;
 }
 
-.micro-response635056281 div.MCBreadcrumbsBox_0
-{
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: black;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-}
-
 .micro-response635056281 .dropDownHotspot
 {
 	text-decoration: none;
@@ -468,6 +459,15 @@
 .micro-response635056281 .dropDownHead
 {
 	text-decoration: none;
+}
+
+.micro-response635056281 div.MCBreadcrumbsBox_0
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .micro-response635056281 .MCWebHelpFramesetLink a

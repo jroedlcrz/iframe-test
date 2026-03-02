@@ -1,0 +1,141 @@
+/*<meta />*/
+
+/* MadCap-Branding resources:/English/Templates/Projects/Empty.flprj/ */
+
+.micro-response-179178544 :root
+{
+	--Primary: #076685;
+	--Lightest: #FFFFFF;
+	--Dark: #45494C;
+	--LogoImage: url('../../Content/Resources/Images/Logo.png');
+	--FontFamily: Arial, Avenir, Myriad;
+}
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+.micro-response-179178544 :root
+{
+	--DarkGreen: olivegreen;
+	--Red: Red;
+	--Salmon: Salmon;
+}
+
+.micro-response-179178544 p
+{
+	font-family: 'Noto Sans';
+	font-size: 12pt;
+	margin: 0px;
+}
+
+.micro-response-179178544 ul.sidenav ul ul > li > a
+{
+	display: none;
+}
+
+.micro-response-179178544 ul.sidenav ul > li > a span.submenu-toggle-container
+{
+	display: none;
+}
+
+.micro-response-179178544 img
+{
+	border: none;
+}
+
+.micro-response-179178544 a.Popup
+{
+	
+}
+
+.micro-response-179178544 h1
+{
+	color: var(--Primary);
+	mc-auto-number-format: '{chapnum}: ';
+}
+
+.micro-response-179178544 h2.styles
+{
+	font-size: 16pt;
+	font-family: 'Arial Black';
+}
+
+.micro-response-179178544 span.SearchHighlight1
+{
+	color: salmon;
+}
+
+.micro-response-179178544 span.SearchHighlight2
+{
+	color: yellow;
+}
+
+.micro-response-179178544 MadCap|codeSnippetBody
+{
+	mc-code-lang: MATLAB;
+}
+
+.micro-response-179178544 div.relatedtopics
+{
+	border: 1px black solid;
+	padding: 5px;
+	float: right;
+}
+
+.micro-response-179178544 span.mc-variable.vaystyle
+{
+	
+}
+
+body.sample.micro-response-179178544
+{
+	text-align: left;
+	background-color: yellow;
+}
+
+.micro-response-179178544 p.TOC3
+{
+	display: none;
+}
+
+.micro-response-179178544 p.TOC4
+{
+	display: none;
+}
+
+.micro-response-179178544 p.TOC2
+{
+	display: none;
+}
+
+@media print
+{
+	.micro-response-179178544 h1
+	{
+		page-break-before: avoid;
+	}
+
+	.micro-response-179178544 table
+	{
+		border: black solid 2px;
+	}
+}
+
+/*<meta sourceDocument="C:\Users\jdelacruz\Downloads\Test.docx" />*/
+
+.micro-response-179178544 div.decortab
+{
+	background-color: salmon;
+	height: 40px;
+}
+
+.micro-response-179178544 p.decortab-text
+{
+	font-family: 'Noto Sans';
+	font-size: 12pt;
+}
+
+body.decorbody.micro-response-179178544
+{
+	
+}
+

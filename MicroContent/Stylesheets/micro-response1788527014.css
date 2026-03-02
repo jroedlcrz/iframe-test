@@ -1,0 +1,42 @@
+/*<meta />*/
+
+/* MadCap-Branding resources:/English/Templates/Projects/Empty.flprj/ */
+
+.micro-response1788527014 :root
+{
+	--Primary: #076685;
+	--Lightest: #FFFFFF;
+	--Dark: #45494C;
+	--LogoImage: url('../../Content/Resources/Images/Logo.png');
+	--FontFamily: Arial, Avenir, Myriad;
+}
+
+@import url('../../Content/Resources/Stylesheets/Mainstyles.css');
+
+.micro-response1788527014 div.rreview
+{
+	background-color: yellow;
+}
+
+.micro-response1788527014 p.MyStyle
+{
+	font-family: Arial;
+	font-size: 12pt;
+	margin: 0px;
+}
+
+.micro-response1788527014 img
+{
+	border: none;
+}
+
+.micro-response1788527014 a.Popup
+{
+	
+}
+
+.micro-response1788527014 h1
+{
+	color: var(--Salmon);
+}
+

@@ -1,0 +1,1 @@
+﻿define({numchunks:1,prefix:'Glossary_Chunk',terms:[{t:'HEC',c:0},{t:'My Term',c:0},{t:'VTEC',c:0}]});

@@ -1,0 +1,130 @@
+﻿/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+:root
+{
+	--DarkGreen: olivegreen;
+	--Red: Red;
+	--Salmon: Salmon;
+}
+
+p
+{
+	font-family: 'Noto Sans';
+	font-size: 12pt;
+	margin: 0px;
+}
+
+ul.sidenav ul ul > li > a
+{
+	display: none;
+}
+
+ul.sidenav ul > li > a span.submenu-toggle-container
+{
+	display: none;
+}
+
+img
+{
+	border: none;
+}
+
+a.Popup
+{
+	
+}
+
+h1
+{
+	color: var(--Primary);
+	mc-auto-number-format: '{chapnum}: ';
+}
+
+h2.styles
+{
+	font-size: 16pt;
+	font-family: 'Arial Black';
+}
+
+span.SearchHighlight1
+{
+	color: salmon;
+}
+
+span.SearchHighlight2
+{
+	color: yellow;
+}
+
+MadCap|codeSnippetBody
+{
+	mc-code-lang: MATLAB;
+}
+
+div.relatedtopics
+{
+	border: 1px black solid;
+	padding: 5px;
+	float: right;
+}
+
+span.mc-variable.vaystyle
+{
+	
+}
+
+body.sample
+{
+	text-align: left;
+	background-color: yellow;
+}
+
+p.TOC3
+{
+	display: none;
+}
+
+p.TOC4
+{
+	display: none;
+}
+
+p.TOC2
+{
+	display: none;
+}
+
+@media print
+{
+	h1
+	{
+		page-break-before: avoid;
+	}
+
+	table
+	{
+		border: black solid 2px;
+	}
+}
+
+/*<meta sourceDocument="C:\Users\jdelacruz\Downloads\Test.docx" />*/
+
+div.decortab
+{
+	background-color: salmon;
+	height: 40px;
+}
+
+p.decortab-text
+{
+	font-family: 'Noto Sans';
+	font-size: 12pt;
+}
+
+body.decorbody
+{
+	
+}
+

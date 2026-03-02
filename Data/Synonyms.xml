@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapSynonyms xml:lang="en-us">
+    <Groups>
+        <SynonymGroup Stem="true">
+            <Word Stem="remov">remove</Word>
+            <Word Stem="eras">erase</Word>
+            <Word Stem="delet">delete</Word>
+        </SynonymGroup>
+    </Groups>
+    <Directional>
+        <DirectionalSynonym Stem="true" From="car" To="van" FromStem="car" />
+    </Directional>
+</MadCapSynonyms>

@@ -1,0 +1,1 @@
+﻿define({'HEC':{d:'Test Test Test',l:''},'My Term':{d:'My definition',l:''},'VTEC':{d:'test test test',l:''}});

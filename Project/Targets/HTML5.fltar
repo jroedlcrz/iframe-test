@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Type="WebHelp2"
+  Comment="MadCap HTML5 Target"
+  MasterToc="/Project/TOCs/Primary.fltoc"
+  ConditionTagExpression="exclude[&quot;Default.Exclude Condish&quot; or Default.PrintOnly], @media web[Default.Web], @media tablet[Default.Tablet], @media mobile[Default.Mobile]"
+  ContentInclusionType="Referenced"
+  LiveHelpType="Disabled"
+  OutputAnalyticsServer="https://coolbrosonly.api.madcapflare.com/"
+  MasterStylesheet="/Content/Resources/Stylesheet.css"
+  MasterPage="/Content/Resources/TemplatePages/Masterpage.flmsp"
+  Skin="/Project/Skins/HTML5 - Side Navigation.flskn"
+  ShowMadCapBacklink="false"
+  Destinations=""
+  ResolveCssVariables="false"
+  MakeFileLowerCase="false"
+  EnableSitemap="true"
+  SitemapWebUrl="https://central.sarkytv.com/"
+  IncludeCSHRuntime="false"
+  MinifyJavaScript="false"
+  ReplaceSpacesWithUnderscores="false"
+  GenerateWebSafeImages="false"
+  WebSafeFileExtension="png"
+  PreCompileScaledImages="false"
+  GenerateAllSkins="false"
+  MoveOutputContentToRoot="false"
+  TopNavTocPath="false"
+  TargetLanguage="en-us"
+  UseCustomTopicFileExtension="false"
+  CustomTopicFileExtension=""
+  PartialWordSearch="true"
+  ForceAnchorIds="false"
+  MasterStylesheetOverride="false"
+  ServerEnabled="false"
+  InsertMOTW="false"
+  TabletBreakpoint="1260"
+  UseLocalBuildSettings="true"
+  IgnoredCompilerWarnings="20041,20040,20039,20038,20037,20036,20035,20034,20033,20032,70000,70001,70002,70003,70004,70005,70006,70007,70008,70009,70010,70011,70012,70015,70017,70018,150039,150040,150041,150042,150043,150044,150045,150046,150047,150048,150049,150061,20000,20001,20002,20003,20004,20005,20006,20007,20008,20009,20010,20011,20012,20013,20014,20015,20016,20017,20018,20019,20020,20021,20029,20030,20031,20042,20048,20049,20050,20051,20052,20053,20057,20058,20059,20060,20065,20066,20075,20076,120000,10000,10001,10002,10004,10005,10006,10007,10008,10009,10010,10011,10012,10013,10014,10015,10016,10017,10018,10019,10020,10021,10022,10023,10024,10025,10026,10027,10028,10029,10030,10031,10032,10033,10034,10035,10036,10037,10038,10039,10040,10041,10052,10053,10054,10055,10056,10057,10058,10059,10060,10061,10066,10067,10068,10069,10070,10071,10080,10081,10082,10093,10094,10100,10101,10124,10127,10128,10129,10130,10131,10132,10133,10134,10135,10136,10137,10138,10139,10140,10141,10142,10143,10147,10148,10149,10151,10152,10153,10156,10160,10161,10162,10163,10164,10165,10166,10167,10168,10169,10170,10171,10172,10173,10174,10175,10176,10177,10178,10181,10182,10183,10184,10185,10186,10187,10188,10189,10192"
+  EquationsOutputType="PNG"
+  SearchEngine="MadCapSearch"
+  SearchBarSkin="/Project/Skins/Searchbar.flskn"
+  PreMergeSearchDatabase="true"
+  RemoveMadCapStyles="false"
+  IncludeImportance="false"
+  GlossaryTermConversion="all">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="doc" />
+  <MicroContentSearch>
+    <FeaturedSnippets
+      type="Empty"
+      numberOfResults="1">
+      <microContentSubset></microContentSubset>
+    </FeaturedSnippets>
+    <KnowledgePanel
+      type="Empty"
+      numberOfResults="1">
+      <microContentSubset></microContentSubset>
+    </KnowledgePanel>
+  </MicroContentSearch>
+  <Destinations>
+    <Destination
+      Link="/Destinations/Flare Online.fldes"
+      Publish="true"
+      IsResource="true"></Destination>
+  </Destinations>
+  <MetaTags
+    Enabled="true">
+    <meta
+      referrerpolicy="origin-when-cross-origin" />
+  </MetaTags>
+  <Elasticsearch
+    Guid="ad18953b-3d9c-460b-9976-96730ded7f19"
+    AutoFuzzy="true"
+    AutocompleteSearchHistory="false" />
+  <PostBuild></PostBuild>
+  <RelationshipTables>
+    <RelationshipTable
+      Link="/Project/Advanced/Relationship Tables/RelationshipTable.flrtb" />
+  </RelationshipTables>
+</CatapultTarget>

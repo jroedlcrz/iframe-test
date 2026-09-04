@@ -1,0 +1,223 @@
+/*<meta />*/
+
+body
+{
+	font-family: Arial;
+	font-size: 16pt;
+	margin: 0px;
+}
+
+img
+{
+	border: none;
+}
+
+a.Popup
+{
+	
+}
+
+p.note
+{
+	font-size: 16pt;
+	mc-leader-format: '.';
+	mc-leader-align: left;
+	mc-leader-offset: auto;
+}
+
+p.myLeader
+{
+	mc-auto-number-class: inherit;
+	mc-auto-number-format: '{a+}. ';
+}
+
+div.RespLayout1	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.RespLayout1::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.RespLayout1::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.RespLayout1 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.RespLayout1 > div:nth-child(1)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+div.RespLayout1 > div:nth-child(2)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+span.SearchHighlight
+{
+	background: #9dff00;
+}
+
+div.RespLayout1 > div:nth-child(3)
+{
+	width: 8.3333%;
+	margin-left: 0%;
+}
+
+MadCap|conditionalText
+{
+	font-style: italic;
+	background-color: #90ee90;
+}
+
+p
+{
+	
+}
+
+@media tablet
+{
+	div.RespLayout1 > div:nth-child(1)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.RespLayout1 > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.RespLayout1 > div:nth-child(3)
+	{
+		width: 8.3333%;
+		margin-left: 0%;
+	}
+}
+
+@media mobile
+{
+	div.RespLayout1 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.RespLayout1 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.RespLayout1 > div:nth-child(3)
+	{
+		width: 8.3333%;
+		margin-left: 0%;
+	}
+}
+
+div.note
+{
+	mc-auto-number-format: 'Note: ';
+	background: #ffebcd;
+	border: black 2px solid;
+	padding: 10px 5px;
+}
+
+p.myLeader
+{
+	justify-content: space-between;
+}
+
+p.myLeader::after
+{
+	content: " ";
+	border-bottom: dotted 2px red;
+	text-align: right;
+	margin-bottom: 5px;
+}
+
+span.state
+{
+	
+}
+
+p.fakeh1
+{
+	mc-heading-level: 1;
+}
+
+@media print
+{
+	p.fakeh1
+	{
+		mc-heading-level: 1;
+	}
+
+	MadCap|xref
+	{
+		mc-format: '{paratext}';
+	}
+
+	MadCap|xref.glossary
+	{
+		
+	}
+}
+
+MadCap|xref.GlossaryTerm
+{
+	mc-format: ;
+}
+
+p.autonum
+{
+	font-style: italic;
+	mc-auto-number-format: '{b}Figure: {/b}';
+	mc-auto-number-class: autonum;
+}
+
+span.autonum
+{
+	font-style: normal;
+}
+
+p.tablecap
+{
+	font-style: italic;
+	mc-auto-number-format: 'H:Table {n}.0-{n+}: ';
+}
+
+h2.autonumh2
+{
+	mc-auto-number-format: 'H:{n+}.0: ';
+}
+
+h1.autonumh1
+{
+	mc-auto-number-format: '{chapnum}: ';
+}
+
+MadCap|conditionalText.NewTag
+{
+	background: #7b68ee;
+}
+

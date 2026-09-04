@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry
+    glossTerm="Glossary.Term0">
+    <Terms>
+      <Term>My Term</Term>
+    </Terms>
+    <Definition>My definition</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term1"
+    Stem=""
+    IgnoreCase="false"
+    conditions="">
+    <Terms>
+      <Term>HEC</Term>
+    </Terms>
+    <Definition
+      Link="">Test Test Test</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term2"
+    Stem="True"
+    IgnoreCase="false"
+    TermClass="">
+    <Terms>
+      <Term>World</Term>
+    </Terms>
+    <Definition
+      Link="">test test test</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

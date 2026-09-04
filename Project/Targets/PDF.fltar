@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  ShowMadCapBacklink="true"
+  MasterToc="/Project/TOCs/Primary.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheet.css"
+  MasterPageLayout="/Content/Resources/PageLayouts/PageLayout.flpgl"
+  ConditionTagExpression="include[Default.NewTag], exclude[&quot;Default.Exclude Condish&quot;]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    OutputFormat="docx"
+    PopupConversion="remove-body"
+    ExpandingTextConversion="remove-body" />
+  <PDF
+    Tagged="true"
+    TitleBar="DocumentTitle"
+    ShowUsedBookmarks="false" />
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

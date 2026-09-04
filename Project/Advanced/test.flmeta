@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultMetaTagSet Comment="Meta Tag Set" name="TestMeta">
+    <meta name="testing" content="test" type="Text" desc="apply to testing" />
+</CatapultMetaTagSet>

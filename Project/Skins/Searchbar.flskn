@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="6"
+  SkinType="Component"
+  Comment="HTML5 Search Bar skin"
+  ComponentType="SearchBar"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Search Auto-complete Item">
+        <Classes>
+          <StyleClass
+            Name="Search History">
+            <Properties>
+              <Property
+                Name="FontFamily">Arial</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Search Auto-complete Item: Description">
+        <Classes>
+          <StyleClass
+            Name="Project Content">
+            <Properties>
+              <Property
+                Name="FontFamily">Arial</Property>
+              <Property
+                Name="Color">red</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+        <Properties>
+          <Property
+            Name="DisplayInline">none</Property>
+        </Properties>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <Strings />
+</CatapultSkin>

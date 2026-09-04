@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProject Version="1" MasterStylesheetOverride="True" Comment="This template contains a minimum number of content and project files, including a single topic. It is the best choice for those who want to begin with a skeleton project." BrandingStylesheet="/Content/Resources/Branding/BrandingStylesheet.css" xml:lang="en-us" MasterPageLayout="/Content/Resources/PageLayouts/PageLayout-Landscape.flpgl" MasterToc="/Project/TOCs/Primary.fltoc" MasterStylesheet="/Content/Resources/Stylesheet.css">
+    <Synchronize>
+    </Synchronize>
+</CatapultProject>

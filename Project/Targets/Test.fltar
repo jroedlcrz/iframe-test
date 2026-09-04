@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="HtmlHelp"
+  Destinations=""
+  ShowMadCapBacklink="true"
+  GlossaryTermConversion="marked"
+  OutputFile="Test"
+  MasterToc="/Project/TOCs/Primary.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheet.css"
+  BrandingStylesheet="/Content/Resources/Branding/BrandingStylesheet.css"
+  ContentInclusionType="Referenced"
+  MasterPage="/Content/Resources/TemplatePages/Masterpage.flmsp"
+  MergeChildWithParent="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="doc" />
+  <PDF
+    Tagged="true"
+    TitleBar="DocumentTitle" />
+</CatapultTarget>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MarkdownImport
+  ImportFolder=""
+  CreateNewStylesheet="false"
+  ConvertSimpleLists="true"
+  ConvertDefinitionLists="true"
+  LastImport="2026-06-23T09:03:40.3062119-07:00">
+  <Files>
+    <Url
+      Source="../../../../Users/jdelacruz/Desktop/lorem.md"
+      AbsoluteSource="file:///C:/Users/jdelacruz/Desktop/lorem.md" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Lorem Ipsum Sample Document.htm"
+      TimeStamp="6/23/2026 9:03:34 AM" />
+    <Url
+      Source="../TOCs/lorem.fltoc"
+      TimeStamp="6/23/2026 9:03:34 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheet.css"
+      TimeStamp="6/23/2026 9:03:34 AM" />
+  </GeneratedFiles>
+  <Styles>
+    <Map
+      From="blockquote"
+      To="blockquote"
+      Style="Block" />
+    <Map
+      From="h1"
+      To="h1"
+      Style="Block" />
+    <Map
+      From="h2"
+      To="h2"
+      Style="Block" />
+    <Map
+      From="h3"
+      To="h3"
+      Style="Block" />
+    <Map
+      From="h4"
+      To="h4"
+      Style="Block" />
+    <Map
+      From="h5"
+      To="h5"
+      Style="Block" />
+    <Map
+      From="h6"
+      To="h6"
+      Style="Block" />
+    <Map
+      From="MadCap:equation"
+      To="MadCap:equation"
+      Style="Block" />
+    <Map
+      From="p"
+      To="p"
+      Style="Block" />
+    <Map
+      From="pre"
+      To="MadCap:codeSnippet"
+      Style="Block" />
+    <Map
+      From="a"
+      To="a"
+      Style="Inline" />
+    <Map
+      From="code"
+      To="strong"
+      Style="Inline" />
+    <Map
+      From="em"
+      To="em"
+      Style="Inline" />
+    <Map
+      From="MadCap:equation"
+      To="MadCap:equation"
+      Style="Inline" />
+    <Map
+      From="strong"
+      To="strong"
+      Style="Inline" />
+    <Map
+      From="li"
+      To="li"
+      Style="List" />
+    <Map
+      From="ol"
+      To="ol"
+      Style="List" />
+    <Map
+      From="ul"
+      To="ul"
+      Style="List" />
+    <Map
+      From="dd"
+      To="dd"
+      Style="Definition List" />
+    <Map
+      From="dl"
+      To="dl"
+      Style="Definition List" />
+    <Map
+      From="dt"
+      To="dt"
+      Style="Definition List" />
+  </Styles>
+  <NewTopicStyles>
+    <Style
+      Tag="h1" />
+  </NewTopicStyles>
+</MarkdownImport>

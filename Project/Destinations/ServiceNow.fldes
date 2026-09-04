@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is my publish destination"
+  Host="subdomain.service-now.com"
+  User="MyAccountId"
+  Password=""
+  Directory="oauth_token.do"
+  Port=""
+  ViewUrl="http://www.madcapsoftware.com/"
+  Type="servicenow"
+  ServiceNowUrl="https://dev279979.service-now.com"
+  DefaultKnowledgeBase="789e013bc3198710b187feac050131d8"
+  ServiceNowDefaultCategory=""
+  ConceptsForKeywords="true"
+  KeywordsForTags="true"
+  ConceptsForTags="true"
+  PruneKeywords="true"
+  PruneTags="true"
+  WorkflowState="published"></CatapultDestination>

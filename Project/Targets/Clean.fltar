@@ -18,10 +18,5 @@
   <PDF
     Tagged="true"
     TitleBar="DocumentTitle" />
-  <Destinations>
-    <Destination
-      Link="/Project/Destinations/Salesforce.fldes"
-      Publish="true"
-      IsResource="false" />
-  </Destinations>
+  <Destinations></Destinations>
 </CatapultTarget>

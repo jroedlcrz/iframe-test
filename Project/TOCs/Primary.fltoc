@@ -21,7 +21,13 @@
     VolumeNumberReset="same"
     ChapterNumberReset="continue">
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/Lorem.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Title="lorem"
+      Link="/Project/TOCs/lorem.fltoc"
+      ReplaceMergeNode="true"
+      ComputedTocAction="Insert"
+      ComputeToc="true"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
   </TocEntry>
 </CatapultToc>

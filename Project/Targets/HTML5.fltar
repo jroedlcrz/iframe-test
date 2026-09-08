@@ -64,9 +64,9 @@
   </MicroContentSearch>
   <Destinations>
     <Destination
-      Link="/Destinations/Flare Online.fldes"
+      Link="/Project/Destinations/GitHub1.fldes"
       Publish="true"
-      IsResource="true"></Destination>
+      IsResource="false" />
   </Destinations>
   <MetaTags
     Enabled="true">
